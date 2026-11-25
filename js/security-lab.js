@@ -107,7 +107,7 @@ const scenarios = [
   },
 ];
 
-// Page elements
+// page elements
 const scenarioCounter = document.getElementById("scenarioCounter");
 const scoreDisplay = document.getElementById("scoreDisplay");
 const accuracyDisplay = document.getElementById("accuracyDisplay");

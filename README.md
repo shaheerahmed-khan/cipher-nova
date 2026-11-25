@@ -9,7 +9,7 @@ This is a group project focused on showcasing cybersecurity practices, privacy a
 - pages/ holds the other 5 html files
 - css/ holds all the styles
 - js/ holds all the js code
-- assets/ holds the images ( assets/images ) and the icons ( assets/icons )
+- assets/ holds the images and icons
 
 ## The Pages
 

@@ -21,7 +21,7 @@
   grid-column: 1 / -1;
 }
 
-/* ---------- labels and fields ---------- */
+/* labels and fields */
 #feedback-form label {
   font-weight: var(--font-bold);
 }
@@ -94,12 +94,15 @@
   cursor: pointer;
 }
 
-/* ---------- neon hover (same effect as .featured article) ---------- */
+/* neon hover  */
 #feedback-form,
 #feedback-form :is(input:not([type="checkbox"]), select, textarea),
 #feedback-form > button {
-  transition: transform 0.3s ease, border-color 0.3s ease,
-              box-shadow 0.3s ease, background 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 }
 
 #feedback-form:hover,
@@ -116,9 +119,10 @@
   box-shadow: var(--glow-cyan);
 }
 
-/* errors stay pink - keep this AFTER the hover rules */
+/* errors stay pink */
 #feedback-form :is(input, select, textarea)[aria-invalid="true"],
-#feedback-form :is(input, select, textarea)[aria-invalid="true"]:is(:hover, :focus) {
+#feedback-form
+  :is(input, select, textarea)[aria-invalid="true"]:is(:hover, :focus) {
   border-color: var(--neon-pink);
   box-shadow: var(--glow-pink);
 }
@@ -132,7 +136,7 @@
   font-weight: var(--font-bold);
 }
 
-/* the empty status box is still read out by screen readers but takes no space */
+/* the empty status box is read by screen readers*/
 #form-status:empty {
   position: absolute;
   width: 1px;

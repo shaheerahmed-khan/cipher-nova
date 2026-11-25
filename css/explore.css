@@ -1,15 +1,15 @@
-/* 1. Card titles: global h2 is page-title size, too big inside a card */
+/* card titles */
 .card h2 {
   font-size: 1.1rem;
   color: var(--text-base);
 }
 
-/* 2. Stop the grid overflowing on small phones */
+/* stop the grid from overflowing on small phones */
 #topicGrid {
   grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
 }
 
-/* 3. Less padding inside cards on phones */
+/* less padding inside cards on phones */
 @media (max-width: 480px) {
   .card {
     padding: var(--small);

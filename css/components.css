@@ -516,7 +516,6 @@ button[type="submit"]:hover {
   gap: 0.4rem;
 }
 
-/* the simulator adds these two classes when you answer - colour the panel */
 .feedback-panel.is-correct {
   border-color: #35d69a;
   box-shadow: 0 0 12px rgba(53, 214, 154, 0.45);

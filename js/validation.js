@@ -1,4 +1,4 @@
-// Small helpers shared by the contact form.
+
 (function (global) {
   "use strict";
 
